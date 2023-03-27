@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+    <title>EKKKO ACADEMY</title>
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="icons/avion.svg" class="hamburger">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicios</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#expertos">Expertos</a>
+            <a href="#contactos">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Imaginando Nuestros Sueños</h1>
+            <p class="copy">Aquí podrás encontrar información acerca de Economía, 
+                Ingeniería Civil y tecnologías de la información.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">Materias</h2>
+            <div class="contenedor-servicio">
+                 <img src="icons/tecnologia.svg" >
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span> Economía</h3>
+                        <p>La economía es  ciencia que estudia la asignacion de 
+                                recursos escasos para satisfacer necesidades ilimitadas.</p>
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span> Ingeniería</h3>
+                        <p>La Ingeniería es la aplicacion de conocimientos cientificos preestablecidos
+                                 con el fin de satisfacer necesidades ilimitadas.</p>
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span> TIC</h3>
+                        <p>Las TIC vienen a ser las tecnologias disruptivas del siglo XXI que tienen
+                                como finalidad mejorar el proceso de vida de la informacion.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="'gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="images/economia.svg" class="img-galeria">
+                    <img src="images/ingenieria.svg" class="img-galeria">
+                    <img src="images/tic.svg" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="image-light">
+            <img src="images/iconito.svg" class="close">
+            <img src="images/economia.svg" class="agregar-imagen">
+        </section>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-experts">
+                    <img src="images/matlab.svg">
+                    <h3 class="n-expert">Matlab</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="images/python.svg">
+                    <h3 class="n-expert">Python</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="images/linux.svg">
+                    <h3 class="n-expert">Linux</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="contactos">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">ELKEY</h2>
+                <p>Si tienes alguna duda o sugerencia, no dudes en contactarnos.</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/elki.parionarojas/" class="social-media-icon"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://github.com/ELKI-PARIONA-ROJAS" class="social-media-icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/elki-pariona-rojas/" class="social-media-icon"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="javascript/menu.js"></script>
+    <script src="javascript/galery.js"></script>
+</body>
+</html>
